@@ -19,7 +19,7 @@ To do this, you’ll need to do some accounting on the incident to better unders
 - Payroll event added. FAUX_BANK
 
 ## Employee Directory<br>
-![Employee-directory](https://github.com/Cr1msonPho3nix/Asset_Management/blob/main/img/Improving%Access%Controls/1.1-Employee-directory.PNG)<br>
+![Employee-directory](https://github.com/Cr1msonPho3nix/Asset_Management/blob/main/img/Improving%20Access%20Controls/1.1-Employee-directory.PNG)<br>
 
 ## Access Control Worksheet
 ### List 1-2 pieces of information that can help identify the threat:
