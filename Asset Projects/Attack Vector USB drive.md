@@ -5,10 +5,10 @@ You bring the USB drive back to your office where the team has virtualization so
 
 ## Exercise
 - These are the contents of the USB:
-![Employee-directory](https://github.com/Cr1msonPho3nix/Asset_Management/blob/main/img/Improving%20Access%20Controls/1.1-Employee-directory.PNG)<br>
+![Attack_Vector_USB](https://github.com/Cr1msonPho3nix/Asset_Management/blob/main/img/Attack%20Vector%20USB/1.1.Attack_Vector_USB.png)<br>
 
 | Subject | Description |
-|         |             |
+|--       |--           |
 | Contents | - Some family photos can be found on a folder.<br>- Shift Schedules and Employee budget files.<br>- Personal stuff shoudln't be put together with job files. |
 | Attacker Mindset | - Family photos can be used to blackmail Jorge into more shaddy practices, like use him as an insider.<br>- Shift Schedules and Employee budget are files that can grant some information about some aspects of the business.<br>- The wedding and vacation ideas files grants information on when Jorge won't be working, so an attacker can use that to prepare some kind of attack on his name in that period of time. |
 | Risk Analysis | - A hidden plug-in software can be installed on the driver, so if an oblivious employee finds it and plugs it in their computer it can infect that terminal and even expand into the internal network.<br>- Some files on the drive contain sensitive information, like family photos and economical information, from Jorge and the organization, which can be used against them.<br>- Jorge can easily be blackmailed with his family photos to do simple but really dangerous tasks, such as plug-in provided drivers in high privilege terminals or send phishing e-mails to high privilege team mates. |
