@@ -17,8 +17,8 @@ You are performing a threat model of the application using the PASTA framework. 
 |--      |--               |
 | 1. Define business and security objectives | - The app was created as an easily way to connect sellers and shoppers.<br>- Shoppers rating sellers easily to encourage a better service.<br>- Several payment options and proper payment handling is crucial to avoid legal issues. |
 | 2. Define the technical scope | - API is used to set the rules to communicate.<br>- PKI is implemented for encryption purposes.<br>- SHA-256 is a hash function that will be used to protect PII.<br>- SQL is used to access all the data about the sneakers sold and bought. |
-| 3. Decompose application | ![PASTA_diagram](image.png) |
+| 3. Decompose application | ![PASTA_diagram](https://github.com/Cr1msonPho3nix/Asset_Management/blob/main/img/PASTA%20Framework/1.1.PASTA_dataflow_diagram.PNG) |
 | 4. Threat analysis | - Stealed Credentials from Shoppers or Admins.<br>- DoS by interrupting the flow to the Database.<br>- Prone to SQL injection if no protection method is included. |
 | 5. Vulnerability analysis | - No MFA or low security credential policy.<br>- Server being overwhelmed by traffic from one or more machines.<br>- SQL injection caused of no implementation of prepared statements, input sanitization or input validation.  |
-| 6. Attack modeling | ![PASTA_attack_tree](image.png) |
+| 6. Attack modeling | ![PASTA_attack_tree](https://github.com/Cr1msonPho3nix/Asset_Management/blob/main/img/PASTA%20Framework/2.1.PASTA_attack_tree.PNG) |
 | 7. Risk analysis and impact | - Password policies and MFA implemented.<br>- Secured development of the APP, including previously SQL methods discussed.<br>- Hashing and encrypting the information, in case of a successful attack.<br>- Preventing a DoS attack by diverting the extra traffic. <br>- Creation of a playbook in case of an event happening. |
